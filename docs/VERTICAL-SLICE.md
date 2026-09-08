@@ -16,7 +16,7 @@
 - Soft stick, floaty cam, mushy hit react, permanent HUD junk, placeholder-as-shipped UI.
 
 ## Owners (once building)
-- Loom — tutorial flow + wave design (implementable beats).
+- Loom — tutorial flow + wave design (implementable beats). Feel specs: `docs/FEEL-SPECS.md`.
 - Forge — UE5 project, Enhanced Input, combat/AI scaffolding.
 - Stride — locomotion + camera weight.
 - Skin / Stage / Vesper — readable silhouettes, one authored arena pass.
@@ -25,3 +25,4 @@
 
 ## Success
 Cull: "I'd feel this on Xbox." Loom: tutorial teaches without a wall of text. Forge: can iterate without rebuild. Rigs: every verb on pad.
+
