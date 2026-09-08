@@ -6,9 +6,11 @@ Unreal 5 / Xbox indie. Bar: Xaviant / *The Culling* weight + *Sea of Thieves* ar
 - Title locked
 - Studio: Cull (veto), Forge (UE5), Loom (design), Vesper/Skin/Stage/Stride (craft), Rigs (pad + ID@Xbox)
 - Vertical slice: **LOCKED** — tutorial + AI waves (`docs/VERTICAL-SLICE.md`)
+- Feel specs: `docs/FEEL-SPECS.md` (Loom → Forge / Stride / Rigs)
 
 ## Standing references
 See `docs/culling-sot-keys-brief.md`. Steal feel first; Cull's veto lines are law.
 
 ## Repo
 https://github.com/KREaTOR-Finance/lms-chazs-revenge
+
