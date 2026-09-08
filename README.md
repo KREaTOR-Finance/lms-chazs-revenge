@@ -5,7 +5,7 @@ Unreal 5 / Xbox indie. Bar: Xaviant / *The Culling* weight + *Sea of Thieves* ar
 ## Status
 - Title locked
 - Studio: Cull (veto), Forge (UE5), Loom (design), Vesper/Skin/Stage/Stride (craft), Rigs (pad + ID@Xbox)
-- Vertical slice: TBD (proposal in `docs/VERTICAL-SLICE.md`)
+- Vertical slice: **LOCKED** — tutorial + AI waves (`docs/VERTICAL-SLICE.md`)
 
 ## Standing references
 See `docs/culling-sot-keys-brief.md`. Steal feel first; Cull's veto lines are law.

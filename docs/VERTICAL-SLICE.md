@@ -1,17 +1,27 @@
-# Vertical slice — proposal (not locked)
+# Vertical slice — LOCKED
 
-**Goal:** one playable loop that proves LMS combat read + pad weight before we build systems around it.
+**LMS: Last Man Standing — Chaz's Revenge**
 
-## Candidate: *One arena, one life*
-1. Drop Chaz into a single closed arena (no BR map scale).
-2. 1v1 or 1vfew melee — weapon weight, camera, hit react, and death must read at Culling clarity.
-3. Match ends when Chaz is last standing or dead. Immediate rematch.
-4. Full gamepad only. No KBM-first path for this slice.
-5. Art: readable silhouettes + SoT-level movement juice; not graybox forever — one authored pass Skin/Stage can ship.
+## Scope
+1. **Tutorial** — teach pad verbs and combat read (move, camera, melee, block/dodge as designed). Gamepad-first. No KBM-first path.
+2. **Waves of AI** — after tutorial, fight escalating AI waves in a closed space until failure or clear. Proves hit react, weight, camera, and death/respawn or rematch loop.
+
+## Bar
+- Culling: weight, camera, combat clarity (Cull veto).
+- Sea of Thieves: art/locomotion juice only if it does not soften stick or muddy fight read.
+- Full controller. Rigs signs pad. Cull signs feel.
 
 ## Out of slice
-- Full BR loot economy, large map, progression meta, voice chat, matchmaking scale.
-- Softened stick feel or muddy fight read (Cull veto).
+- Full BR map / loot economy / matchmaking scale / voice.
+- Soft stick, floaty cam, mushy hit react, permanent HUD junk, placeholder-as-shipped UI.
+
+## Owners (once building)
+- Loom — tutorial flow + wave design (implementable beats).
+- Forge — UE5 project, Enhanced Input, combat/AI scaffolding.
+- Stride — locomotion + camera weight.
+- Skin / Stage / Vesper — readable silhouettes, one authored arena pass.
+- Rigs — mappings, haptics cues, UI nav for tutorial prompts.
+- Cull — ship gate on feel.
 
 ## Success
-Cull signs camera/combat clarity. Rigs signs pad. Loom signs "I'd play this again tonight." Forge can iterate without a rebuild.
+Cull: "I'd feel this on Xbox." Loom: tutorial teaches without a wall of text. Forge: can iterate without rebuild. Rigs: every verb on pad.
